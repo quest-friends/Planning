@@ -20,6 +20,7 @@ Learning Objectives (Not in order)
   * Happiness/Fun Coordination
   * Refactoring
   * CSS
+  * Teamwork
 
 ### Ira's Objectives
   * Rails
