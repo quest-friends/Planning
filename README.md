@@ -21,6 +21,13 @@ Learning Objectives
   * Refactoring
   * CSS
   
+### Sreynak's Objectives
+  * Rails
+  * JavaScript/JQuery
+  * Testing
+  * Refactoring
+  * Project Management
+  
 ### Kirsty's Objectives
   * Vanilla JavaScript and jQuery (Object Orientated and MVC)
   * jQuery UI and jQuery mobile if needed.
