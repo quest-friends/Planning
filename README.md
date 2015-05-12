@@ -8,7 +8,7 @@ Learning Objectives
 ### Piet's Objectives  
   * Code reviews
   * Project management
-  * JS frameworks
+  * JS frameworks (Angular!)
   * Node (know it's not likely)
   * Whole application design (SOA?)
   * Testing testing testing
