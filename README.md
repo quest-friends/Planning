@@ -15,7 +15,7 @@ Learning Objectives (Not in order)
 
 ### Cara's Objectives
   * JavaScript/JQuery
-  * Testing (Jasmine/Rspec)
+  * Testing (Jasmine/Rspec/Capybara)
   * Project Management
   * Happiness/Fun Coordination
   * Refactoring
