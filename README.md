@@ -20,13 +20,11 @@ Learning Objectives
   * Happiness/Fun Coordination
   * Refactoring
   * CSS
-
-### Sreynak's Objectives
-  * Rails
-  * JavaScript/JQuery
-  * Testing
-  * Refactoring
-  * Project Management
+  
+### Kirsty's Objectives
+  * Vanilla JavaScript and jQuery (Object Orientated and MVC)
+  * jQuery UI and jQuery mobile if needed.
+  * Testing for my Javascript(Jasmine, maybe Cabybara)
 
 User Stories  
 ------------  
