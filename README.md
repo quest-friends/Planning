@@ -32,6 +32,13 @@ Learning Objectives (Not in order)
   * Optimal time management
   * Testing
 
+### Sreynak's Objectives
+  * Rails
+  * JavaScript/JQuery
+  * Testing
+  * Refactoring
+  * Project Management
+
 User Stories  
 ------------  
 At this point these can / should be very brainstormy. Throw any ideas in here, we'll thin them out later...
