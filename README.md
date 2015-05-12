@@ -2,7 +2,7 @@ Planning
 ========
 Project overview, user stories, learning objectives...  
 
-Learning Objectives  
+Learning Objectives (Not in order)  
 -------------------
 
 ### Piet's Objectives  
@@ -20,18 +20,16 @@ Learning Objectives
   * Happiness/Fun Coordination
   * Refactoring
   * CSS
-  
-### Sreynak's Objectives
+
+### Ira's Objectives
   * Rails
-  * JavaScript/JQuery
+  * Good code
+  * Teamwork
+  * Ajax
+  * OO Javascript
+  * Angular || Other JS frameworks
+  * Optimal time management
   * Testing
-  * Refactoring
-  * Project Management
-  
-### Kirsty's Objectives
-  * Vanilla JavaScript and jQuery (Object Orientated and MVC)
-  * jQuery UI and jQuery mobile if needed.
-  * Testing for my Javascript(Jasmine, maybe Cabybara)
 
 User Stories  
 ------------  
@@ -48,5 +46,8 @@ At this point these can / should be very brainstormy. Throw any ideas in here, w
  * As a user I want to set themes for a story (possibly based on location?).
  * As a user I want to read random lines of stories on Twitter.
  * As a user I want to access an archive of completed public stories.
+ * As a user I want to be notified when a geo-story I contributed to is completed.
+ * As a user I want to have a point system.
+ * As a user I want to be able to rate lines in some way.
 
 
