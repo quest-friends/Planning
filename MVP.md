@@ -17,7 +17,6 @@ A USER
 * story is automatically public
 * make the first contribution to the story
 
-###RECEIVE A NOTIFICATION WHEN YOU ARE IN THE AREA OF A GEO STORY  
 
 The following relies on google maps
 -----------------------------------
