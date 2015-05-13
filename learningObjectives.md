@@ -3,7 +3,8 @@ Learning Objectives (Not in order)
 
 ### Piet's Objectives
   * **Angular**
-  * **Rails**
+  * **Cordova**
+  * Rails
   * Code reviews
   * Project management
   * Node (know it's not likely but could use for twitter stretch if we get that far.)
