@@ -72,6 +72,16 @@ Learning Objectives (Not in order)
 * JS Frameworks
 * Project Management
 
+### Alex's Objectives
+* Rails (front end integration)
+* OOJS
+* HTML & CSS & JS joining forces
+* AngularJS / front end JS based-frameworks
+* Testing
+* Ruby library/gem integration
+
+
+
 User Stories  
 ------------  
 At this point these can / should be very brainstormy. Throw any ideas in here, we'll thin them out later...
