@@ -75,11 +75,10 @@ Learning Objectives (Not in order)
 * AngularJS / front end JS based-frameworks
 * Testing
 * Ruby library/gem integration
-* 
 
 ### Chhingchhing's Objectives
 * Rails
-* JS Framework
-* CSS/Bootstrap
+* JS Framework, CSS/Bootstrap
 * Ruby Gem
 * Testing
+* Teamwork & Project Management
