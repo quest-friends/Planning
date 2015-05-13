@@ -6,14 +6,11 @@ Project overview, user stories, learning objectives...
 [Learning Objectives](learningObjectives.md)
 ---------------------
 
-
 [User Stories](userStories.md)
 ------------  
-
  
 [MVP](MVP.md)
 -----
-
 
 [Stretches](stretches.md)
 -----------
@@ -21,3 +18,5 @@ Project overview, user stories, learning objectives...
 [Pitch Subjects](pitchSubjects.md)
 ----------------
 
+[Team Rules](rules.md)
+------------
