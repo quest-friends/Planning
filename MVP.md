@@ -31,5 +31,5 @@ The following relies on google maps
 * contribute to the geo story in text area  
 * save geo story  
 
-###RECEIVE A NOTIFICATION WHEN A STORY YOU HAVE CONTRIBUTED TO IS COMPLETED  
-* view the full story for teh lolz.  
+
+###view the full story for teh lolz.  
