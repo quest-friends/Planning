@@ -12,6 +12,7 @@ Learning Objectives (Not in order)
   * Node (know it's not likely)
   * Whole application design (SOA?)
   * Testing testing testing
+  * Git whip.
 
 ### Cara's Objectives
   * JavaScript/JQuery
