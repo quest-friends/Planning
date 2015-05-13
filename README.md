@@ -66,6 +66,10 @@ Learning Objectives (Not in order)
  * Ajax
  * FUN FUN FUN
 
+### Harriet's Objectives
+* Rails
+* OOJS
+* JS Frameworks
 
 User Stories  
 ------------  
