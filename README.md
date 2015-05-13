@@ -18,3 +18,6 @@ Project overview, user stories, learning objectives...
 [Stretches](stretches.md)
 -----------
 
+[Pitch Subjects](pitchSubjects.md)
+----------------
+
