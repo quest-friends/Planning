@@ -39,13 +39,6 @@ Learning Objectives (Not in order)
   * Refactoring
   * Project Management
 
-  
-### Kirsty's Objectives
-  * Vanilla JavaScript and jQuery (Object Orientated and MVC)
-  * Ajax
-  * jQuery UI and jQuery mobile if needed.
-  * Testing for my Javascript(Jasmine, maybe Cabybara)
-
 ### Greg's Objectives
  * MVC OOJS/JQ
  * Rails
