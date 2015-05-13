@@ -22,6 +22,7 @@ Learning Objectives (Not in order)
   * Refactoring
   * CSS
   * Teamwork
+  * Rails
 
 ### Ira's Objectives
   * Rails
