@@ -12,6 +12,9 @@ Project overview, user stories, learning objectives...
 [MVP](MVP.md)
 -----
 
+[Wireframes](wireframes.md)
+------------
+
 [Stretches](stretches.md)
 -----------
 
