@@ -83,6 +83,7 @@ At this point these can / should be very brainstormy. Throw any ideas in here, w
  * As a user I want to view completed stories I contributed to.
  * As a user I want to be notified when it's time for me to contribute to a story.
  * As a user I want to create stories that are geo located and can only be edited by users in that location.
+ * As a user I want to see nearby geo-stories on a map.
  * As a user I want to make stories private or public.
  * As a user I want to set themes for a story (possibly based on location?).
  * As a user I want to read random lines of stories on Twitter.
