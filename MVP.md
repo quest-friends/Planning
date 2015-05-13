@@ -25,11 +25,11 @@ The following relies on google maps
 ###CAN SEARCH FOR NEARBY STORIES WITHIN RADIUS OF CURRENT LOCATION  
 
 ###CAN SELECT GEOSTORY WHEN IN ZONE  
-*select pin on google maps  
-*can see the title  
-*can see the last contribution  
-*contribute to the geo story in text area  
-*save geo story  
+* select pin on google maps  
+* can see the title  
+* can see the last contribution  
+* contribute to the geo story in text area  
+* save geo story  
 
 ###RECEIVE A NOTIFICATION WHEN A STORY YOU HAVE CONTRIBUTED TO IS COMPLETED  
-*view the full story for teh lolz.  
+* view the full story for teh lolz.  
