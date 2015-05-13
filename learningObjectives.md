@@ -65,9 +65,9 @@ Learning Objectives (Not in order)
  * FUN FUN FUN
 
 ### Harriet's Objectives
-* Rails
+* **Rails**
+* **Angular**
 * OOJS
-* JS Frameworks
 * Project Management
 
 ### Alex's Objectives
