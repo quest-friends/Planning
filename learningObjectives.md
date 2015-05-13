@@ -31,7 +31,7 @@ Learning Objectives (Not in order)
   * Testing
 
 ### Sreynak's Objectives
-  * Rails
+  * Responsive Design (HTML/ CSS /CSS Framework)
   * JavaScript/JQuery
   * Testing
   * Refactoring
