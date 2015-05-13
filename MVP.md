@@ -22,6 +22,8 @@ The following relies on google maps
 -----------------------------------
 
 ###CAN SEARCH FOR NEARBY STORIES WITHIN RADIUS OF CURRENT LOCATION  
+* Search by typing location anywhere in the world.
+* Search for near by stories by click.
 
 ###CAN SELECT GEOSTORY WHEN IN ZONE  
 * select pin on google maps  
@@ -32,3 +34,4 @@ The following relies on google maps
 
 
 ###view the full story for teh lolz.  
+* Completed stories page with stories displayed on map.
