@@ -47,6 +47,15 @@ Learning Objectives (Not in order)
   * jQuery UI and jQuery mobile if needed.
   * Testing for my Javascript(Jasmine, maybe Cabybara)
 
+### Greg's Objectives
+ * MVC OOJS/JQ
+ * Rails
+ * HTML/CSS
+ * Teamwork
+ * Fun
+ * Angular JS (only if feasible)
+ * A little bit of Ruby lovin' (only if feasible)
+
 
 User Stories  
 ------------  
