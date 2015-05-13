@@ -13,16 +13,18 @@ Learning Objectives (Not in order)
   * Git whip.
 
 ### Cara's Objectives
-  * JavaScript/JQuery
+  * **JavaScript/JQuery**
   * Testing (Jasmine/Rspec/Capybara)
   * Project Management
   * Happiness/Fun Coordination
   * Refactoring
   * CSS
   * Teamwork
-  * Rails
+  * **Rails**
 
 ### Ira's Objectives
+  * **Mobile App**
+  * **APIs**
   * Rails
   * Good code
   * Teamwork
@@ -33,24 +35,25 @@ Learning Objectives (Not in order)
   * Testing
 
 ### Sreynak's Objectives
-  * Responsive Design (HTML/ CSS /CSS Framework)
-  * JavaScript/JQuery
+  * **Responsive Design (HTML/ CSS /CSS Framework/SASS/LESS)**
+  * **JavaScript/JQuery**
   * Testing
   * Refactoring
   * Project Management
 
 ### Greg's Objectives
  * MVC OOJS/JQ
- * Rails
- * HTML/CSS
+ * **Rails**
+ * HTML/CSS/
  * Teamwork
  * Fun
- * Angular JS (only if feasible)
+ * **Angular JS (only if feasible)**
  * A little bit of Ruby lovin' (only if feasible)
 
 ### Geordi's Objectives
- * HTML/CSS
- * SASS or LESS
+ * **HTML/CSS**
+ * **SASS or LESS**
+ * **APIs**
  * MVC OOJS/JQuery
  * AngularJS
  * Testing
@@ -65,14 +68,15 @@ Learning Objectives (Not in order)
 
 ### Alex's Objectives
 * OOJS MVC (maybe with a framework if used)
-* Front end JS/CSS style and UI
-* Rails API/front end integration
+* **Front end JS/CSS style and UI**
+*** Rails API/front end integration**
 * Refactoring/Testing
 * Ruby gem integration
 * Pairing again! Yuss!
 
 ### Chhingchhing's Objectives
-* Rails
+* **Rails**
+* **Mobile**
 * JS Framework, CSS/Bootstrap
 * Ruby Gem
 * Testing
