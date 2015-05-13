@@ -32,6 +32,20 @@ Learning Objectives (Not in order)
   * Optimal time management
   * Testing
 
+### Sreynak's Objectives
+  * Rails
+  * JavaScript/JQuery
+  * Testing
+  * Refactoring
+  * Project Management
+
+  
+### Kirsty's Objectives
+  * Vanilla JavaScript and jQuery (Object Orientated and MVC)
+  * jQuery UI and jQuery mobile if needed.
+  * Testing for my Javascript(Jasmine, maybe Cabybara)
+
+
 User Stories  
 ------------  
 At this point these can / should be very brainstormy. Throw any ideas in here, we'll thin them out later...
