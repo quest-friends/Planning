@@ -1,11 +1,12 @@
 Learning Objectives (Not in order)  
 -------------------
 
-### Piet's Objectives  
+### Piet's Objectives
+  * **Angular**
+  * **Rails**
   * Code reviews
   * Project management
-  * JS frameworks (Angular!)
-  * Node (know it's not likely)
+  * Node (know it's not likely but could use for twitter stretch if we get that far.)
   * Whole application design (SOA?)
   * Testing testing testing
   * Git whip.
