@@ -56,6 +56,15 @@ Learning Objectives (Not in order)
  * Angular JS (only if feasible)
  * A little bit of Ruby lovin' (only if feasible)
 
+### Geordi's Objectives
+ * HTML/CSS
+ * SASS or LESS
+ * MVC OOJS/JQuery
+ * AngularJS || Other frameworks
+ * Testing
+ * Ajax
+ * FUN FUN FUN
+
 
 User Stories  
 ------------  
