@@ -109,4 +109,6 @@ At this point these can / should be very brainstormy. Throw any ideas in here, w
  * As a user I want to upvote or downvote public stories.
  * As a user I want to select a story mode: written-word, illustration, free-form.
  
+[MVP](MVP.md)
+
 
