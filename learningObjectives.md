@@ -70,12 +70,12 @@ Learning Objectives (Not in order)
 * Project Management
 
 ### Alex's Objectives
-* Rails (front end integration)
-* OOJS
-* HTML & CSS & JS joining forces
-* AngularJS / front end JS based-frameworks
-* Testing
-* Ruby library/gem integration
+* OOJS MVC (maybe with a framework if used)
+* Front end JS/CSS style and UI
+* Rails API/front end integration
+* Refactoring/Testing
+* Ruby gem integration
+* Pairing again! Yuss!
 
 ### Chhingchhing's Objectives
 * Rails
