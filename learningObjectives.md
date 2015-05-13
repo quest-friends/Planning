@@ -57,7 +57,7 @@ Learning Objectives (Not in order)
  * HTML/CSS
  * SASS or LESS
  * MVC OOJS/JQuery
- * AngularJS || Other frameworks
+ * AngularJS
  * Testing
  * Ajax
  * FUN FUN FUN
