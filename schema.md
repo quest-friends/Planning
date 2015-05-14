@@ -19,6 +19,7 @@ Story:
 * origin geocode
 * contributions - has many contributions
 * contribution limit
+* completed boolean
 * created_at
 * updated_at
 
