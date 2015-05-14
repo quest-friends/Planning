@@ -25,7 +25,9 @@ Team Roles / Accountabilities
 -----------------------------
 
 ###Zombee
-We have an odd number of team members so the odd one out gets to be the Zombee. They:
+
+We have an odd number of team members so the odd one out gets to be the Zombee. Everyone will get a turn at being the zombee for a whole day. They:
+
 * Organise and enforce mandatory fun times at 3pm.
 * Approve pull requests.
 * Available to swarm.
@@ -36,11 +38,11 @@ Typical Day Plan
 ----------------
 * Hours are 9-9 until we hit MVP and then we can review.
 * Retrospective in morning.
+* 11:50 standup
 * Lunch from 12-1.
-* Stand ups every three hours.
 * Mandatory fun at 3.
-
-
+* 6pm standup
+* 9pm guilt free home time.
 
 
 [Learning Objectives](learningObjectives.md)
