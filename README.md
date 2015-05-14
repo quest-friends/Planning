@@ -13,7 +13,7 @@ There is also a responsive desktop version of the app.
 
 App link:
 ---------
-You can find the currently deployed app at [http://corpsebook.herokuapp.com/](http://corpsebook.herokuapp.com/)
+You can find the currently deployed app at [http://corpsebook-server.herokuapp.com/](http://corpsebook-server.herokuapp.com/)
 
 Github workflow
 ---------------
