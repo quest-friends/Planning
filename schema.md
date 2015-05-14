@@ -16,7 +16,8 @@ Story:
 ------
 * id
 * title
-* origin geocode
+* origin longitude
+* origin latitude
 * contributions - has many contributions
 * contribution limit
 * completed boolean
@@ -29,7 +30,8 @@ Contribution:
 * user: - belongs to a user
 * story - belongs to a story
 * content
-* geocode
+* longitude
+* latitude
 * created_at
 * updated_at
 
