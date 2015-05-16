@@ -2,7 +2,7 @@
 
   /stories      CURRENT
     GET
-    RETURNS: All stories
+    RETURNS: The last recently updated incomplete stories
     FORMAT: {story:
               {
                 id: 1,
@@ -11,6 +11,33 @@
                 completed: false
               }
             }
+            
+  /stories    CURERNT
+    POST
+    ACTION: Create a new story
+    FORMAT: {"story": 
+	             {
+		            "title": "Nearby routing. Zomg.",
+                "contribution_limit": 13,
+                "lat": 10,
+                "lng": 100
+	              }
+            }
+            
+           
+           
+  /completed  CURRENT 
+    GET
+    RETURNS: all completed stories
+    FORMAT: {story:
+              {
+                id: 1,
+                title: "title",
+                contribution_limit: 45,
+                completed: false
+              }
+            }
+  
 
   /stories/:id  CURRENT
     GET
