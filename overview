@@ -19,10 +19,11 @@
     FORMAT: {title: 
               {
                 title: "title",
-                all contributions OR last contribution: 
+                all_contributions OR last_contribution: 
                     {
                       story_id: 1,
-                      content: "content"
+                      content: "content",
+                      username: "username"
                     }
               }
 
@@ -33,19 +34,34 @@
     ACTION: create a contribution for a specific story
     INPUT FORMAT: { contribution:
                       {
-                        content: "content"
+                        content: "content",
+                        username: "username"
                       }
                   }
 
-  /stories/nearby     TO BE COMPLETED
+  /stories/nearby     
     GET
-    RETURNS:  get nearby stories for lat + lng
-    FORMAT:
+    RETURNS:  get nearby stories in radius based on lat + lng
+    FORMAT: { nearby_stories:
+                  [{
+                    id: id,
+                    title: "title",
+                    contribution_limit: 34,
+                    completed: false,
+                    timestamps
+                    }, {
+                    id: id,
+                    title: "title",
+                    contribution_limit: 34,
+                    completed: false,
+                    timestamps
+                  }]
+            }
 
-  /stories/in_range   TO BE COMPLETED
-    POST
+  /stories/:id/in_range   TO BE COMPLETED
+    GET
     RETURNS: Whether or not user is in range of story
-    FORMAT:
+    FORMAT: 
 
 **CLIENTS**
 
@@ -57,14 +73,14 @@
       GET /stories/nearby
         - get users current location from browser and sent to server
         - display incomplete stories on google map
-    - has a search bar for searching complete and incompleted stories by location
-      AAAAH! = Client can determine lat&lng of "The Eiffel Tower"?
+    - has a search bar for searching incompleted stories by location
+      AAAAH! = Client can determine lat&lng of "The Eiffel Tower"? - Google map API
     - has a logo on the left
 
   A HOME PAGE
     - has COMPLETED and INCOMPLETE story tabs
-        -default load of tab displays ten most recent stories completed/created in world
-          - GET stories/
+        -default load of page incomplete tab displays ten most recent stories created in world
+          - GET /stories
         - Open tab is searchable by location from search bar in the navbar
           GET /stories/nearby
 
@@ -92,7 +108,7 @@
     GET /stories/:id
     - shows the story title
     - show the last contribution
-    - if user is in range (/stories/in_range) a form to add a contribution with username
+    - if user is in range (/stories/:id/in_range) a form to add a contribution with username
         - POST request to /stories/:story_id/contributions
 
   A READ STORY PAGE
