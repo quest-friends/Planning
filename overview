@@ -75,7 +75,7 @@ CLIENTS
         - home page changes to show results of search
                - can see the title
                - can see beginning of the last contribution
-               - on click the listing expands to show google maps position/OR displays little map next to listing to show position
+               - can see it's location (as specific as poss) in TEXT 
               - stories are selectable for contribution
                   - GET /stories/:id
                   - links to a contribution page
