@@ -37,7 +37,15 @@
                       }
                   }
 
-  /stories/nearby
+  /stories/nearby     TO BE COMPLETED
+    GET
+    RETURNS:  get nearby stories for lat + lng
+    FORMAT:
+
+  /stories/in_range   TO BE COMPLETED
+    POST
+    RETURNS: Whether or not user is in range of story
+    FORMAT:
 
 CLIENTS
 
@@ -84,7 +92,7 @@ CLIENTS
     GET /stories/:id
     - shows the story title
     - show the last contribution
-    - a form to add a contribution with username
+    - if user is in range (/stories/in_range) a form to add a contribution with username
         - POST request to /stories/:story_id/contributions
 
   A READ STORY PAGE
