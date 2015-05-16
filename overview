@@ -12,7 +12,7 @@
               }
             }
             
-  /stories    CURERNT
+  /stories    CURRENT
     POST
     ACTION: Create a new story
     FORMAT: {"story": 
@@ -69,6 +69,7 @@
   /nearby     
     GET
     RETURNS:  get nearby stories in radius based on lat + lng
+    		returns {id, title, contribution_limit, contributions_length, lat, lng}
     FORMAT: { nearby_stories:
                   [{
                     id: id,
