@@ -85,10 +85,15 @@
                   }]
             }
 
-  /stories/:id/in_range   TO BE COMPLETED
+  /stories/:story_id/in_range   TO BE COMPLETED
     GET
     RETURNS: Whether or not user is in range of story
-    FORMAT: 
+    FORMAT: {search:
+    		{
+    			lat: XX,
+    			lng: XX
+    		}
+    	}
 
 **CLIENTS**
 
