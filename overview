@@ -39,7 +39,7 @@
                       }
                   }
 
-  /stories/nearby     
+  /nearby     
     GET
     RETURNS:  get nearby stories in radius based on lat + lng
     FORMAT: { nearby_stories:
@@ -70,7 +70,7 @@
       - home link
       - rules link
     - has a "FIND NEARBY" button for finding stories near current location
-      GET /stories/nearby
+      GET /nearby
         - get users current location from browser and sent to server
         - display incomplete stories on google map
     - has a search bar for searching incompleted stories by location
@@ -82,7 +82,7 @@
         -default load of page incomplete tab displays ten most recent stories created in world
           - GET /stories
         - Open tab is searchable by location from search bar in the navbar
-          GET /stories/nearby
+          GET /nearby
 
         FOR COMPLETE STORIES TAB
         - home page changes to show results of search
@@ -95,7 +95,7 @@
                 GET /stories/:id 
 
         FOR INCOMPLETE STORIES TAB
-          GET /stories/nearby
+          GET /nearby
         - home page changes to show results of search
                - can see the title
                - can see beginning of the last contribution
