@@ -1,4 +1,4 @@
-```SERVER
+**SERVER**
 
   /stories      CURRENT
     GET
@@ -47,7 +47,7 @@
     RETURNS: Whether or not user is in range of story
     FORMAT:
 
-CLIENTS
+**CLIENTS**
 
   NAVBAR
     - menu button
@@ -98,4 +98,4 @@ CLIENTS
   A READ STORY PAGE
     GET /stories/:id
     - shows the story title
-    - show all the contributions WITH their usernames```
+    - show all the contributions WITH their usernames
