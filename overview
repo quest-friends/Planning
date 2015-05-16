@@ -1,0 +1,93 @@
+```SERVER
+
+  /stories      CURRENT
+    GET
+    RETURNS: All stories
+    FORMAT: {story:
+              {
+                id: 1,
+                title: "title",
+                contribution_limit: 45,
+                completed: false
+              }
+            }
+
+  /stories/:id  CURRENT
+    GET
+    RETURNS: A story
+              - title and contributions
+    FORMAT: {title: 
+              {
+                title: "title",
+                all contributions OR last contribution: 
+                    {
+                      story_id: 1,
+                      content: "content"
+                    }
+              }
+
+            }
+
+  /stories/:story_id/contributions    CURRENT
+    POST
+    ACTION: create a contribution for a specific story
+    INPUT FORMAT: { contribution:
+                      {
+                        content: "content"
+                      }
+                  }
+
+  /stories/nearby
+
+CLIENTS
+
+  NAVBAR
+    - menu button
+      - home link
+      - rules link
+    - has a "FIND NEARBY" button for finding stories near current location
+      GET /stories/nearby
+        - get users current location from browser and sent to server
+        - display incomplete stories on google map
+    - has a search bar for searching complete and incompleted stories by location
+      AAAAH! = Client can determine lat&lng of "The Eiffel Tower"?
+    - has a logo on the left
+
+  A HOME PAGE
+    - has COMPLETED and INCOMPLETE story tabs
+        -default load of tab displays ten most recent stories completed/created in world
+          - GET stories/
+        - Open tab is searchable by location from search bar in the navbar
+          GET /stories/nearby
+
+        FOR COMPLETE STORIES TAB
+        - home page changes to show results of search
+          - results are displayed in a list
+          - can see the title
+          - can see beginning of the first contribution
+            - on click the listing expands to show google maps position/OR displays little map next to listing to show position
+          - stories are selectable
+              - links to a page to read the story
+                GET /stories/:id 
+
+        FOR INCOMPLETE STORIES TAB
+          GET /stories/nearby
+        - home page changes to show results of search
+               - can see the title
+               - can see beginning of the last contribution
+               - on click the listing expands to show google maps position/OR displays little map next to listing to show position
+              - stories are selectable for contribution
+                  - GET /stories/:id
+                  - links to a contribution page
+
+  A CONTRIBUTIONS PAGE
+    GET /stories/:id
+    - shows the story title
+    - show the last contribution
+    - a form to add a contribution with username
+        - POST request to /stories/:story_id/contributions
+
+  A READ STORY PAGE
+    GET /stories/:id
+    - shows the story title
+    - show all the contributions WITH their usernames```
