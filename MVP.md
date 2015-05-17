@@ -7,7 +7,7 @@ A USER
 ###CAN READ THE RULES  
 
 ###CREATE A GEO STORY
-* give the story a title
+* <s>give the story a title</s>
 * give the story a contribution limit
 * the story location is set to user's current location
 * story is automatically public
