@@ -1,10 +1,19 @@
 Wireframes
 ==========
 
+Create Story
 ![alt tag](http://s16.postimg.org/hwv2mgms5/create_story.png "Create Story")
+
+Contribute
 ![alt tag](http://s10.postimg.org/ised8xgp5/contribute.png "Contribute")
+
+Profile
 ![alt tag](http://s10.postimg.org/dv0snteq1/profile.png "Profile")
+
+Sidebar Menu
 ![alt tag](http://s10.postimg.org/ovvxsu6yx/sidebar_menu.png "Sidebar Menu")
+
+Stories
 ![alt tag](http://s10.postimg.org/b3hix7g7d/stories.png "Stories")
 
 You can upload to postimg.org for free....
