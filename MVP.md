@@ -8,10 +8,10 @@ A USER
 
 ###CREATE A GEO STORY
 * <s>give the story a title</s>
-* give the story a contribution limit
+* <s>give the story a contribution limit</s>
 * the story location is set to user's current location
-* story is automatically public
-* make the first contribution to the story (takes username)
+* <s>story is automatically public</s>
+* <s>make the first contribution to the story (takes username)</s>
 
 
 The following relies on google maps
