@@ -112,39 +112,39 @@
 
   A HOME PAGE
     - has COMPLETED and INCOMPLETE story tabs
-        -default load of page incomplete tab displays ten most recent stories created in world
-          - GET /stories
-        - Open tab is searchable by location from search bar in the navbar
-          GET /nearby
+    - has MAP or LIST view of stories as tabs
+        - default load of page incomplete tab displays ten most recent stories created nearby
+         	- GET /nearby
+        - Menu at side has link buttons to:
+        	- create new story (page)
+        	- search by location (page)
 
         FOR COMPLETE STORIES TAB
-        - home page changes to show results of search
-          - results are displayed in a list
+          - display can be toggled either in a list or map
           - can see the title
           - can see beginning of the first contribution
           - can see its location (as specific as poss) in TEXT 
           - stories are selectable
-              - links to a page to read the story
+              - links to a page to read the complete story
                 GET /stories/:id 
 
         FOR INCOMPLETE STORIES TAB
-          GET /nearby
-        - home page changes to show results of search
-               - can see the title
-               - can see beginning of the last contribution
-               - can see its location (as specific as poss) in TEXT 
-              - stories are selectable for contribution
+         - display can be toggled either in a list or map
+                - can see the title
+                - can see beginning of the last contribution
+                - can see its location (as specific as poss) in TEXT 
+         	- stories are selectable for contribution if in range (logic)
+                  - contribution button links to story page to make contribution
                   - GET /stories/:id
-                  - links to a contribution page
 
-  A CONTRIBUTIONS PAGE
+  AN INCOMPLETE STORY PAGE
     GET /stories/:id
     - shows the story title
-    - show the last contribution
+    - shows the last contribution
     - if user is in range (/stories/:id/in_range) a form to add a contribution with username
         - POST request to /stories/:story_id/contributions
 
-  A READ STORY PAGE
+  A COMPLETED STORY PAGE
     GET /stories/:id
     - shows the story title
-    - show all the contributions WITH their usernames
+    - story shows all the contributions WITH their usernames
