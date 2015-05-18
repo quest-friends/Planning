@@ -8,8 +8,13 @@
                 id: 1,
                 title: "title",
                 contribution_limit: 45,
+                contribution_length: 24,
+                location: {
+                 lat: -41.5151,
+                 lng: 174.6764 
+                }
                 completed: false
-              }
+              }, ..
             }
             
   /stories    CURRENT
@@ -17,25 +22,29 @@
     ACTION: Create a new story
     FORMAT: {"story": 
 	             {
-		            "title": "Nearby routing. Zomg.",
-                "contribution_limit": 13,
-                "lat": 10,
-                "lng": 100
+		       "title": "Nearby routing. Zomg.",
+		       "contribution_limit": 13,
+		       "lat": -41.4151,
+		       "lng": 174.4164
 	              }
             }
             
            
            
-  /completed  CURRENT 
+  /stories/completed  CURRENT 
     GET
     RETURNS: all completed stories
     FORMAT: {story:
               {
                 id: 1,
                 title: "title",
-                contribution_limit: 45,
-                completed: false
-              }
+                first_contribution: 'Hello World',
+                location: {
+                 lat: -41.5151,
+                 lng: 174.6764 
+                }
+                completed: true
+              }, ..
             }
   
 
@@ -43,56 +52,84 @@
     GET
     RETURNS: A story
               - title and contributions
-    FORMAT: {title: 
-              {
-                title: "title",
-                all_contributions OR last_contribution: 
-                    {
-                      story_id: 1,
-                      content: "content",
-                      username: "username"
-                    }
-              }
-
-            }
+    FORMAT: 
+    	if a story is completed:
+	    {title: 
+	              {
+	              	id: 1,
+	                title: "title",
+	                contributions_length,
+	                contribution_limit,
+	                completed: true,
+	                location: {
+	                 lat: -41.5151,
+	                 lng: 174.6764 
+	                },
+	                all_contributions {
+	                 story_id: 1,
+	                 content: "content",
+	                 username: "username"
+	                }, ..
+	              }
+	              
+	if a story is not completed:
+	    {title: 
+	              {
+	              	id: 1,
+	                title: "title",
+	                contributions_length,
+	                contribution_limit,
+	                completed: false,
+	                location: {
+	                 lat: -41.5151,
+	                 lng: 174.6764 
+	                },
+	                last_contribution {
+	                 story_id: 1,
+	                 content: "content",
+	                 username: "username"
+	                }
+	              }
+	            }
 
   /stories/:story_id/contributions    CURRENT
     POST
     ACTION: create a contribution for a specific story
     INPUT FORMAT: { contribution:
                       {
+                      	story_id: 1,
                         content: "content",
                         username: "username"
-                      }
+                      }, ..
                   }
 
-  /nearby     
+  /stories/nearby     
     GET
     RETURNS:  get nearby stories in radius based on lat + lng
     		returns {id, title, contribution_limit, contributions_length, lat, lng}
     FORMAT: { nearby_stories:
-                  [{
+                  {
                     id: id,
                     title: "title",
                     contribution_limit: 34,
                     completed: false,
-                    timestamps
-                    }, {
-                    id: id,
-                    title: "title",
-                    contribution_limit: 34,
-                    completed: false,
-                    timestamps
-                  }]
+                    contribution_length: 12,
+                    first_contribution: 'Hello World',
+                    last_contribution: 'Hello World',
+                    location: {
+	                 lat: -41.5151,
+	                 lng: 174.6764 
+	            }
+                  }, ..
             }
 
   /stories/:story_id/in_range   TO BE COMPLETED
     GET
-    RETURNS: Whether or not user is in range of story
+    RETURNS:  true/false depending on wheteher or not a story is in range
     FORMAT: {search:
     		{
-    			lat: XX,
-    			lng: XX
+    			lat: -41.531,
+    			lng: 174.414
     		}
     	}
 
