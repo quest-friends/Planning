@@ -14,11 +14,10 @@ Learning Objectives (Not in order)
 
 ### Cara's Objectives
   * **JavaScript/JQuery**
-  * Testing (Jasmine/Rspec/Capybara)
+  * Testing
   * Project Management
   * Happiness/Fun Coordination
   * Refactoring
-  * CSS
   * Teamwork
   * **Rails**
 
@@ -71,7 +70,6 @@ Learning Objectives (Not in order)
 * **Front end JS/CSS style and UI**
 *** Rails API/front end integration**
 * Refactoring/Testing
-* Ruby gem integration
 * Pairing again! Yuss!
 
 ### Chhingchhing's Objectives
