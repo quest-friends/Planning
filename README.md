@@ -5,7 +5,7 @@ Project overview, user stories, learning objectives...
 
 Project Description
 -------------------
-Corpsebook is an app inspired by the [exquisite corpse](http://en.wikipedia.org/wiki/Exquisite_corpse) writing game. The app adds a geolocation element to the game where participants must physically go to the location of a story to be able to contribute. 
+Gretel is an app inspired by the [exquisite corpse](http://en.wikipedia.org/wiki/Exquisite_corpse) writing game. The app adds a geolocation element to the game where participants must physically go to the location of a story to be able to contribute. 
 
 The app has a Rails backend for user authentication and the db of stories and contributions. 
 There is a phone app for ios and android built on cordova. 
@@ -13,7 +13,7 @@ There is also a responsive desktop version of the app.
 
 App link:
 ---------
-You can find the currently deployed app at [http://corpsebook-server.herokuapp.com/](http://corpsebook-server.herokuapp.com/)
+You can find the currently deployed app at gretel.nz
 
 Github workflow
 ---------------
