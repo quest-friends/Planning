@@ -29,6 +29,7 @@ We have an odd number of team members so the odd one out gets to be the Rogue. E
 * communicates between groups
 * manages git flow
 * manages breaks
+* coordinate trello board management
 
 Typical Day Plan
 ----------------
