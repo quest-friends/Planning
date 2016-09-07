@@ -1,15 +1,15 @@
 Learn the Rules!
 ================
 
-STEP 1: A response from each app.
+Use ES6 syntax where possible (clientside)
 
-Mobile first responsive design.
+Pull requests reviewed
 
-TDD or else changing tasks a pain for all.
-      ALL TESTS NOT PASSING? NO PULL REQUEST.
+Tests passing before pull request
 
-Two layered hierarchy
-  - Current techinical role.(pairs)
-  - Agile role (pairs)
+Informative commit messages, present tense
 
-Detailed commit messages, present tense
+Strictly keeping to appropriate branch
+
+Coffee every morning
+
