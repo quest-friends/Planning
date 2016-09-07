@@ -15,7 +15,7 @@ Player attemping to move into a wall doesn't move them
 
 Enemies are stationary but will attack player if they move adjacent
 
-Player can 'win' by stepping on exit til
+Player can 'win' by stepping on exit tile
 
 Play can 'lose' by having health reduced to zero (via being attacked)
 
