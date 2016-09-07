@@ -13,3 +13,9 @@ Strictly keeping to appropriate branch
 
 Coffee every morning
 
+In case of dispute:
+
+Address as early as possible
+Bring in third party to mediate
+Bring in rogue or Hudson to mediate
+
