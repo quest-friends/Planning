@@ -13,7 +13,7 @@ Player moving into an enemy attacks that enemy
 
 Player attemping to move into a wall doesn't move them
 
-Enemies are stationary but will attack player if they move adjacent
+Enemies are stationary but will attack player if player moves adjacent
 
 Player can 'win' by stepping on exit tile
 
