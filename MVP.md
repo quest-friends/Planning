@@ -9,6 +9,10 @@ Board loads on game start with rooms + player + enemies visible
 
 Player can move via pressing arrow keys/WSAD
 
+Player moving into an enemy attacks that enemy
+
+Player moving into a wall doesn't move them
+
 Enemies are stationary but will attack player if they move adjacent
 
 Player can 'win' by stepping on exit til
