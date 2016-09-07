@@ -11,7 +11,7 @@ Player can move via pressing arrow keys/WSAD
 
 Player moving into an enemy attacks that enemy
 
-Player moving into a wall doesn't move them
+Player attemping to move into a wall doesn't move them
 
 Enemies are stationary but will attack player if they move adjacent
 
