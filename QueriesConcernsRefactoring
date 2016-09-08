@@ -1,0 +1,18 @@
+
+
+Board rendering logic: currently rendering tiles and player and stuff all in one step.
+
+Suggested change (pseudocode) - this is refactoring, should be done at some point
+
+map through tile containers
+  
+  map through board
+    render tiles
+
+  map through player (grid coords)
+    render player
+    
+  map through enemies (grid coords)
+    render enemies
+    
+  etc
