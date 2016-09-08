@@ -1,4 +1,4 @@
-### GameConnector - unnecessary props mapped in from state
+### GameConnector - unnecessary props mapped in from state [noted by Madeleine]
 issue: we're currently passing in two unnecessary bits of the state (via MapStateToProps) - state.player.position.x and .y
 this is to trigger the re-render of the Game->Board components in response to player movement
 (apparently due to component not noticing a change in the bigger object, despite the x or y value changing)
