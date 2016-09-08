@@ -1,18 +1,5 @@
-
-
-Board rendering logic: currently rendering tiles and player and stuff all in one step.
-
-Suggested change (pseudocode) - this is refactoring, should be done at some point
-
-map through tile containers
-  
-  map through board
-    render tiles
-
-  map through player (grid coords)
-    render player
-    
-  map through enemies (grid coords)
-    render enemies
-    
-  etc
+### GameConnector - unnecessary props
+issue: we're currently passing in two unnecessary bits of the state (via MapStateToProps) - state.player.position.x and .y
+this is to trigger the re-render of the Game->Board components in response to player movement
+(apparently due to component not noticing a change in the bigger object, despite the x or y value changing)
+why refactor needed: seems stupid to map extra props when we won't ever use them
