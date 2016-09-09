@@ -8,6 +8,13 @@ Learning Objectives (Not in order)
 ## Max
 
 ## Madeleine
+  * React-redux in general
+  * Testing, especially integration testing
+  * Git workflow
+  * Deployment to Heroku
+  * Project/workflow management
+  * Game design basics
+  * Some styling (but low priority)
 
 ## Cam
   * React/Redux
