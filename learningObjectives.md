@@ -4,6 +4,13 @@ Learning Objectives (Not in order)
 ## Hudson
 
 ## Dylan
+ *React & Redux working together
+ *Testing
+  *Using Intergration testing
+  *Unit testing reducers
+ *Git flow to perfection
+ *Project workflow
+ *Team dynamics
 
 ## Max
 
