@@ -4,15 +4,27 @@ Learning Objectives (Not in order)
 ## Hudson
 
 ## Dylan
- *React & Redux working together
- *Testing
-  *Using Intergration testing
-  *Unit testing reducers
- *Git flow to perfection
- *Project workflow
- *Team dynamics
 
 ## Max
+ * Gain a more in-depth knowladge of react-redux:
+  * Managing the flow.
+  * Managing the state.
+  * How connectors work.
+  * Learning about how Action Creators work & dispatching.
+ * Managing Github flow in a large group:
+  * Making sure to review pull-request and leave meaningfull comments.
+  * Clear communication in reguards to merging branches.
+ * Becoming more TDD orientated:
+  * Gathering a better understanding of intergration testing.
+  * Building further knowledge on unit testing.
+ * Keeping my code tidy:
+  * Following the DRY principle.
+  * Clear indenting.
+  * Meaningful function and variable names.
+  * Making sure to refactor code.
+ * Team Dynamics:
+  * Learning how working long hours affects me.
+  * Learning how I work in a larger team environment. 
 
 ## Madeleine
   * React-redux in general
