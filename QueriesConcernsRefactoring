@@ -1,10 +1,3 @@
-### GameConnector - unnecessary props mapped in from state [noted by Madeleine]
-Issue: we're currently passing in two unnecessary bits of the state (via MapStateToProps) - state.player.position.x and .y
-this is to trigger the re-render of the Game->Board components in response to player movement
-(apparently due to component not noticing a change in the bigger object, despite the x or y value changing)
-why refactor needed: seems stupid to map extra props when we won't ever use them
-
-
 ### Unused reducer files [Hudson]
 Currently we've uncombined all our reducers, but not removed the old files. We've left them in place because we do want to
 recombine the reducers at some point but only after we've actually implemented our own combined reducer, and a lot of other
@@ -16,3 +9,20 @@ When we made data structure changes so that we could have multiple Enemies on th
 the specific tile as props when the EnemyConnector is instantiated in the BoardElement. This made the MapStateToProps of 
 enemy.position.x etc from the state redundant, and by extension the whole EnemyConnector.
 We may want the EnemyConnector to do something later, so have left it in the structure.
+
+### changes to the consoleLog via reducer - can't use spread operator? [Madeleine Sun 6:50pm]
+  what we have:  
+    newState.loggedMessages.push(action.payload.messages.playerAttacks)
+    newState.loggedMessages = newState.loggedMessages.slice(0)
+  what we'd like to use
+      // newState.loggedMessages = [...newState.loggedMessages, action.payload.messages.playerAttacks]
+The latter works, but doesn't allow the tests to pass. ES6 issue?
+
+
+Resolved issues:
+
+### GameConnector - unnecessary props mapped in from state [noted by Madeleine] {connector now in use!!!}
+Issue: we're currently passing in two unnecessary bits of the state (via MapStateToProps) - state.player.position.x and .y
+this is to trigger the re-render of the Game->Board components in response to player movement
+(apparently due to component not noticing a change in the bigger object, despite the x or y value changing)
+why refactor needed: seems stupid to map extra props when we won't ever use them
