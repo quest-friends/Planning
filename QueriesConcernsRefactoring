@@ -1,14 +1,5 @@
-### Unused reducer files [Hudson]
-Currently we've uncombined all our reducers, but not removed the old files. We've left them in place because we do want to
-recombine the reducers at some point but only after we've actually implemented our own combined reducer, and a lot of other
-work depends on being able to access particular parts of the state (ie tilegrid from within the player movement reducer)
-which the standard implementation of combinereducers does not allow us to do.
-
-### EnemyConnector - not really doing anything at present - 20.30 Friday 9 Sept [Madeleine, Hudson, Dylan]
-When we made data structure changes so that we could have multiple Enemies on the board, we ended up passing the (i,j) of
-the specific tile as props when the EnemyConnector is instantiated in the BoardElement. This made the MapStateToProps of 
-enemy.position.x etc from the state redundant, and by extension the whole EnemyConnector.
-We may want the EnemyConnector to do something later, so have left it in the structure.
+### Using array slices and triggering re-render in enemy movement control - similar problem to the solution we hacked
+together for the 'console log' situation [Hudson Mon 10:15]
 
 ### changes to the consoleLog via reducer - can't use spread operator? [Madeleine Sun 6:50pm]
   what we have:  
@@ -26,3 +17,15 @@ Issue: we're currently passing in two unnecessary bits of the state (via MapStat
 this is to trigger the re-render of the Game->Board components in response to player movement
 (apparently due to component not noticing a change in the bigger object, despite the x or y value changing)
 why refactor needed: seems stupid to map extra props when we won't ever use them
+
+### Unused reducer files [Hudson] {Have now been removed by Hudson}
+Currently we've uncombined all our reducers, but not removed the old files. We've left them in place because we do want to
+recombine the reducers at some point but only after we've actually implemented our own combined reducer, and a lot of other
+work depends on being able to access particular parts of the state (ie tilegrid from within the player movement reducer)
+which the standard implementation of combinereducers does not allow us to do.
+
+### EnemyConnector - 20.30 Friday 9 Sept [Madeleine, Hudson, Dylan] {resolved as now has useful function}
+When we made data structure changes so that we could have multiple Enemies on the board, we ended up passing the (i,j) of
+the specific tile as props when the EnemyConnector is instantiated in the BoardElement. This made the MapStateToProps of 
+enemy.position.x etc from the state redundant, and by extension the whole EnemyConnector.
+We may want the EnemyConnector to do something later, so have left it in the structure.
