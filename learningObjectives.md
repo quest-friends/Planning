@@ -26,8 +26,8 @@ Learning Objectives (Not in order)
  * Focusing on the task at hand and not getting distracted with other things that need to be fixed
 
 ## Dylan
- -React-Redux:
-  -Better understanding of the state
+ #React-Redux:
+  #Better understanding of the state
   -Better at using the reducers
   -Using connectors
  -testing
