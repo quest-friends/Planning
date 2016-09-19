@@ -8,13 +8,13 @@ Dev Quest is an interactive system designed to portray the journey of learning s
 
 The app is designed specifically to work in desktop computer web browsers. It's responsive but doesn't support mobile devices.
 
-App link:
+App link: https://dev-quest.herokuapp.com/
 ---------
 
 Github workflow
 ---------------
 * Master always has passing tests.
-* Pull requests approved by Hudson
+* Pull requests approved by Hudson or Rogue
 * Features should be built on branches and the merged via pull request.
 
 Team Roles / Accountabilities
@@ -60,5 +60,5 @@ Typical Day Plan
 [Pitch Subjects](pitchSubjects.md)
 ----------------
 
-[Team Rules](rules.md)
+[Team Agreements](rules.md)
 ------------
