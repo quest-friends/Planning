@@ -26,20 +26,20 @@ Learning Objectives (Not in order)
  * Focusing on the task at hand and not getting distracted with other things that need to be fixed
 
 ## Dylan
- *React-Redux:
-  *Better understanding of the state
-  *Better at using the reducers
-  *Using connectors
- *testing
-  *Intergration testing
-  *Unit testing with the reducers
- *Game desigin and balancing the game play
- *Git flow
-  *Maintaining knowledgle of other people pull requests
-  *Making lots of commits
- *Team Dynamics
-  *Being agile
-  *Managinhg working closely & long hours with others
+ * React-Redux:
+  * Better understanding of the state
+  * Better at using the reducers
+  * Using connectors
+ * testing
+  * Intergration testing
+  * Unit testing with the reducers
+ * Game desigin and balancing the game play
+ * Git flow
+  * Maintaining knowledgle of other people pull requests
+  * Making lots of commits
+ * Team Dynamics
+  * Being agile
+  * Managinhg working closely & long hours with others
 
 ## Max
  * Gain a more in-depth knowladge of react-redux:
